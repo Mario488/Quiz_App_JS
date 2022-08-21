@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(193, 178, 178);
+    padding:0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: #DBC2BC;
+    outline: 1px solid black;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: .1em;
+    box-shadow: 3px 3px 5px 6px rgb(95, 92, 92);
+}
+.q1,.q2,.q3,.q4,.q5,.q6,.q7,.q8,.q9,.q10,.q11,.q12,.q13,.q14,.q15,.endscreen{
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.q1,.q2,.q3,.q4,
+.q5,
+.q6,
+.q7,
+.q8,
+.q9,
+.q10,
+.q11,
+.q12,
+.q13,
+.q14,
+.q15,.endscreen,.a1, .a2, .a3, .a4{
+    margin: 20px;
+}
+.a1 button, .a2 button, .a3 button, .a4 button{
+    background-color: #DBC2BC;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    cursor: pointer;
+}
+.a1 button:hover,
+.a2 button:hover,
+.a3 button:hover,
+.a4 button:hover {
+    background-color: rgb(75, 69, 69);
+    transform: translateX(45px) scale(1.1);
+    border-radius: 6px;
+    color: #efe5e2
+}
+#startQuiz{
+    background-color: #b78e84;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+#startQuiz:hover{
+    transform: scale(1.1) translateY(-7px);
+    transition: transform 200ms;
+    cursor: pointer;
+    background-color: rgb(214, 27, 27);
+    color: rgb(229, 213, 213);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#progressBar{
+    font-size: 2.6rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    display: inline;
+    
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+.text{
+    color: black;
+    font-size: 2.2rem;
+    background-color: rgb(95, 174, 224);
+    width: 200px;
+    height: 100px;
+    border-radius: 7px;
+    font-family: 'Poppins';
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+#Tryagain{
+    background-color: #b78e84;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    position: relative;
+    left: 300px;
+}
+#Tryagain:hover{
+    transform: scale(1.1) translateY(-7px);
+    transition: transform 200ms;
+    cursor: pointer;
+    background-color: rgb(27, 30, 214);
+    color: rgb(229, 213, 213);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
